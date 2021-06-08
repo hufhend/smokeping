@@ -1,0 +1,195 @@
+*** Targets ***
+
+probe = FPing
+
+menu = Top
+title = Network Latency Grapher
+remark = Welcome to the SmokePing website of Akira Company. \
+         Here you will learn all about the latency of our network.
+
++ Local
+
+menu = Local
+title = Local Network
+#parents = owner:/Test/James location:/
+
+++ HP290
+
+menu = HP 290 máma
+title = HP 290 G4 microtower
+host = localhost
+
+++ ProLiant
+
+menu = ProLiant server
+title = ProLiant ML110
+host = server.lan
+
+++ SW3
+
+menu = Switch u serveru
+title = MikroTik switch
+host = switch.lan
+
+++ Router-1
+
+menu = Router hlavní
+title = MikroTik hEX S
+host = router.lan
+
+++ Modem
+
+menu = Modem UPC
+title = UPC modem
+host = akira.cz
+
+++ AP1
+
+menu = WiFi obývák
+title = UniFi AP AC Lite
+host = ap-02.lan
+
+++ AP2
+
+menu = WiFi máma
+title = UniFi AP AC Long Range
+host = ap-01.lan
+
+++ Router-2
+
+menu = Router u Terezky
+title = Linksys E2500
+host = linksys-1.lan
+
+++ Router-3
+
+menu = Router u mámy
+title = Linksys E900
+host = linksys-2.lan
+
+++ SW1
+
+menu = Switch hlavní
+title = UniFi Switch, 8-Port, 4x PoE Out, 60W
+host = sw-01.lan
+
+++ SW2
+
+menu = Switch u TV
+title = UniFi Switch 8
+host = sw-02.lan
+
++ UPC
+
+menu = UPC
+title = Liberty Global B.V.
+
+++ GW1
+
+menu = 1. gateway
+title = ip-86-49-52-193.net.upcbroadband.cz
+host = 86.49.52.193
+
+++ GW2
+
+menu = 2. gateway
+title = cz-prg02a-ra2-vla2001.net.upc.cz
+host = 84.116.222.165
+
+++ GW3
+
+menu = Backbone
+title = cz-prg01a-ri1-ae-6-0.aorta.net
+host = 84.116.135.234
+
+++ GW4
+
+menu = Backbone foreign
+title = cz-prg02b-ri1-ae-18-0.aorta.net
+host = 84.116.138.145
+
++ Internet
+
+menu = Internet
+title = Significant servers
+
+++ Google
+
+menu = Google
+title = google.com
+host = 172.217.23.238
+
+++ Webshare
+
+menu = Webshare
+title = webshare.cz
+host = webshare.cz
+
+++ FCB
+menu = Facebook
+title = facebook.com
+host = 157.240.30.35
+
+++ Seznam
+
+menu = Seznam
+title = seznam.cz
+host = 77.75.75.176
+
+++ Cesnet
+
+menu = Speedtest
+title = speedtest.cesnet.cz
+host = 77.75.75.176
+
++ Betsys
+
+menu = Betsys
+title = Betsys Network
+
+++ Praha
+
+menu = VPN brána
+title = kancelář Žižkov
+host = 213.151.80.230
+
+++ CRA
+
+menu = DC Tower
+title = datacentrum
+host = 85.207.0.90
+
++ Printers
+
+menu = Tiskárny
+title = Network printers
+
+++ HP-Pro-9020
+
+menu = HP OfficeJet 9020
+title = HP OfficeJet Pro 9020 - LAN
+host = hpoj-9020.lan
+
+++ HPLJ-5si
+
+menu = HP LaserJet 5si
+title = HP LaserJet 5si - LAN
+host = hplj-5si.lan
+
+++ HPLJ-M175nw
+
+menu = HP LaserJet 100
+title = HP LaserJet 100 colorMFP M175nw - WiFi
+host = hplj-m175.lan
+
+++ Canon-MX925
+
+menu = Canon MX925
+title = Canon PIXMA MX925 - WiFi
+host = canon-mx920.lan
+
+++ HP-Pro-8600
+
+menu = HP Officejet 8600
+title = HP Officejet Pro 8600 N911g - WiFi
+host = hpoj-8600.lan

@@ -1,0 +1,21 @@
+version: "2.1"
+services:
+  smokeping:
+    image: ghcr.io/linuxserver/smokeping
+    container_name: smokeping
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/Prague
+    volumes:
+      - "$PWD/config:/config"
+      - "$PWD/data:/data"
+    ports:
+      - 3001:80
+    environment:
+      - VIRTUAL_PORT=3001
+      - LETSENCRYPT_TEST=true
+      - VIRTUAL_HOST=smokeping.akira.cz
+      - LETSENCRYPT_HOST=smokeping.akira.cz
+      - LETSENCRYPT_EMAIL=hufhendr@gmail.com
+    restart: unless-stopped
