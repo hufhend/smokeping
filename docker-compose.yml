@@ -3,6 +3,7 @@ services:
   smokeping:
     image: ghcr.io/linuxserver/smokeping
     container_name: smokeping
+    hostname: Záběhlice
     environment:
       - PUID=1000
       - PGID=1000
